@@ -41,3 +41,37 @@ etiqueda de class = .
 body{
     background-color: lightblue;
 }
+
+#menu{
+clear: both;
+background-color: #222;
+color: white;
+border-bottom: 4px solid #01b1ea;
+height: 55px;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+#menu ul li{
+    
+    float: left;
+    border-right: 1px solid #363636;
+    line-height: 55px;
+    
+}
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all 300ms;
+}
+
+#menu a:hover{
+    background-color: #01b1ea;
+}
